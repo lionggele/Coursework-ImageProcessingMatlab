@@ -5,3 +5,24 @@ output IMG ( 1 figure one, one output per one question IMG)
 report:
 1. write by step with a literature review. with reference!!!!!!!!!!!! 
 2. ( be honest) explain the method, process, and result. ( success or fail ) , must include strengths and weakness
+
+
+Using RGB to get the greeness of the image ( not clear and then not smooth )
+%% read image origin, StackNinja1.bmp image
+img = imread("StackNinja1.bmp");
+
+% Extract the individual red, green, and blue color channels.
+redChannel = img(:, :, 1); % Red Channel
+greenChannel = img(:, :, 2); % Green Channel
+blueChannel = img(:, :, 3); % Blue Channel
+
+%Create an all black Channel.
+allBlack = zeros(size(img, 1), size(img, 2), 'uint8');
+
+% Greeness
+GreenPic = (greenChannel -(redChannel+blueChannel)/2);
+
+imshow(img);
+title('original', 'FontSize', 10);
+imshow(GreenPic);
+title('greenness', 'FontSize', 10);
