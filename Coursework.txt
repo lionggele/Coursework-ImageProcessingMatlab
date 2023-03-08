@@ -5,6 +5,9 @@ output IMG ( 1 figure one, one output per one question IMG)
 report:
 1. write by step with a literature review. with reference!!!!!!!!!!!! 
 2. ( be honest) explain the method, process, and result. ( success or fail ) , must include strengths and weakness
+3. image link wiht the report
+4. critical analysis ->　（cant find any mistake ) (grammer error msut not happen ) ( parameter using literatur support and then focus on own result) , EXP: optimum value of -- is chosen after tryingout other values.
+5. citation
 
 
 Using RGB to get the greeness of the image ( not clear and then not smooth )
@@ -26,3 +29,5 @@ imshow(img);
 title('original', 'FontSize', 10);
 imshow(GreenPic);
 title('greenness', 'FontSize', 10);
+
+

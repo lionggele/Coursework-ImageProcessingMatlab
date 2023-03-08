@@ -1,0 +1,20 @@
+% read image origin, StackNinja1.bmp image
+img = imread("StackNinja1.bmp");
+
+
+% % convert RGB to HSV 
+% hsvimg = rgb2hsv(img);
+% 
+% % Extract out the Hue of the image 
+% hImage = hsvimg(:,:,1);
+% 
+% % bBinarizing 
+% binaryImg = imbinarize(hImage);
+
+
+[~,threshold] = edge(im,'sobel');
+fudgeFactor = 0.5;
+BWs = edge(I,'sobel',threshold * fudgeFactor);
+figure;
+imshow(binaryImg);
+
