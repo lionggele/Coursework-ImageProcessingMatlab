@@ -6,8 +6,9 @@ report:
 1. write by step with a literature review. with reference!!!!!!!!!!!! 
 2. ( be honest) explain the method, process, and result. ( success or fail ) , must include strengths and weakness
 3. image link wiht the report
-4. critical analysis ->　（cant find any mistake ) (grammer error msut not happen ) ( parameter using literatur support and then focus on own result) , EXP: optimum value of -- is chosen after tryingout other values.
+4. critical analysis ->　（cant find any mistake ) (grammer error msut not happen ) ( parameter using literatur support and then focus on own result ) , EXP: optimum value of -- is chosen after tryingout other values.
 5. citation
+6. reference ( Sequential order )
 
 
 Using RGB to get the greeness of the image ( not clear and then not smooth )
